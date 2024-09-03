@@ -30,7 +30,6 @@ WHERE UserID IN (
     WHERE FriendBeingAdded = 2 AND IsAccepted = TRUE
 );
 
-
 -- 6. Select all the friend requests that user with a user_id of 1 has sent. The friend request can either be accepted or not yet accepted.
 SELECT *
 FROM Friends
