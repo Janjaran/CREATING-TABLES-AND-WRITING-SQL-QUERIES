@@ -18,6 +18,7 @@ INSERT INTO Groups (GroupName, CreatedBy) VALUES
 ('Literature Enthusiasts', 3), 
 ('Art and Crafts Group', 4),    
 ('Meeting Group', 5);    
+
 INSERT INTO Posts (PostDescription, PostedBy, IsPublic, IsOnlyForFriends, GroupID) VALUES
 ('Reminder: Bayanihan event this Friday!', 1, TRUE, FALSE, 1),   
 ('Meeting for new members of Heritage Society', 2, FALSE, TRUE, 2), 
